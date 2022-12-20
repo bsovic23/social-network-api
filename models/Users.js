@@ -7,7 +7,9 @@ const userSchema = new Schema(
     },
     email: {
         type: String
-    }
+    },
+    thoughts: [],
+    friends: []
 }
 );
 

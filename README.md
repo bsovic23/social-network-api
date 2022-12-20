@@ -7,8 +7,9 @@ This project...
 ## Tools Used to Create This Project
 
 * JavaScript
-*
-*
+* MongooseDB 
+* Express.js
+
 
 
 ## Link To Deployed Application
