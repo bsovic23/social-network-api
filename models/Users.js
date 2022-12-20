@@ -8,7 +8,12 @@ const userSchema = new Schema(
     email: {
         type: String
     },
-    thoughts: [],
+    thoughts: [
+       {
+       type: Schema.Types.ObjectId,
+       ref: 'Thoughts'
+      }
+    ],
     friends: []
 }
 );
